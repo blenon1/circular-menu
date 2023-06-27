@@ -9,5 +9,5 @@ for(var i = 0, l = items.length; i < l; i++) {
 }
 
 document.querySelector('.menu-button').onclick = function(e) {
-   e.preventDefault(); document.querySelector('.circle').classList.toggle('open') && document.querySelector('.circle .menu-button').toggle('active');
+   e.preventDefault(); document.querySelector('.circle').classList.toggle('open') && document.querySelector('.menu-button').toggle('active');
 }
